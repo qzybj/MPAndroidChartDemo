@@ -1,0 +1,21 @@
+<resources>
+    <string name="no_data">暂无查询数据</string>
+    <string name="alipay">支付宝</string>
+    <string name="bank_card">银行卡</string>
+    <string name="free_ticket">赠券</string>
+    <string name="prepaid">预付费卡</string>
+    <string name="weixin">微信</string>
+    <string name="vippoint">积分</string>
+    <string name="history_vippoint">历史积分</string>
+    <string name="now_vippoint">积分现抵</string>
+    <string name="cash">现金</string>
+    <string name="take_product_ticket">提货券</string>
+    <string name="prepaid_card_refund">预付费卡退款</string>
+    <string name="vippoint_refund">积分退款</string>
+
+    <string name="discount">优惠</string>
+    <string name="cash_payment">现金类支付</string>
+
+    <string name="sale">销售</string>
+    <string name="refund">退款</string>
+</resources>

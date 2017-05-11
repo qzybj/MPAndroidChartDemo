@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common style - wrap_content  -->
+    <style name="style_common_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- common style - match_parent  -->
+    <style name="style_common_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 统一弹框样式 -->
+    <style name="style_common_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- common style - single line TextView -->
+    <style name="style_text_common" parent="style_common" >
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- common style - button -->
+    <style name="common_btn_default" parent="style_common">
+        <item name="android:textSize">@dimen/text_size_26</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- common style - divide line 1dp -->
+    <style name="style_line_h1dp_transparent" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_transparent</item>
+    </style>
+
+    <!-- common style - divide line 15dp -->
+    <style name="style_line_h15dp" parent="style_line_h1dp_transparent">
+        <item name="android:layout_height">15dp</item>
+    </style>
+
+    <style name="style_line_h15dp_F0F3F8" parent="style_line_h1dp_transparent">
+        <item name="android:layout_height">15dp</item>
+    </style>
+
+    <!-- common style -  TitleBar - BackBtn -->
+    <style name="style_tiltebar_btn_back" parent="@style/common_btn_default">
+        <item name="android:textSize">@dimen/text_size_28</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 设置账本项部选择RadioButton样式 -->
+    <style name="style_account_book_rbtn" parent="style_text_common">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_32</item>
+        <item name="android:textColor">@drawable/report_tab_textcolor_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/report_tab_selector</item>
+    </style>
+
+</resources>
